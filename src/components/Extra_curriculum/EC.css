@@ -1,0 +1,293 @@
+.extracurriculum__heading{
+    font-family: var(--header-title);
+    font-size: var(--size-3xl);
+    text-align: center;
+}
+
+.extracurriculum__divider{
+    width: 50%;
+    border-bottom: 3px solid var(--clr-dark);
+    margin: auto;
+}
+
+.extracurriculum__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 3rem;
+}
+
+.extracurriculum__title{
+    font-family: var(--header-title);
+}
+
+.extracurriculum__duration{
+    font-family: var(--header-title);
+    font-weight: 500;
+}
+.extracurriculum__desc{
+    font-family: var(--content-font);
+    font-weight:500;
+    margin: 20px 0;
+}
+
+.extracurriculum__list{
+    margin: 20px 17px;
+}
+.extracurriculum__list li{
+    font-family: var(--content-font);
+    line-height: 5px;
+    font-weight: 500;
+}
+.EC__img1{
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 20px var(--clr-dark);
+    border-radius: 5px;
+}
+.EC__img2{
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 20px var(--clr-dark);
+    border-radius: 5px;
+}
+.view__video{
+    font-family: var(--header-title);
+    font-size: var(--size-sm);
+
+}
+
+/* xs */
+ @media (min-width: 475px){
+} 
+
+/* sm */
+/* @media (min-width: 640px){
+    
+} */
+
+/* md */
+/* @media (min-width: 768px){
+    
+} */
+@media(max-width:1023px){
+    .extracurriculum__heading{
+        font-family: var(--header-title);
+        font-size: var(--size-3xl);
+        text-align: center;
+    }
+    
+    .extracurriculum__divider{
+        width: 50%;
+        border-bottom: 3px solid var(--clr-dark);
+        margin: auto;
+    }
+    .extracurriculum__wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .extracurriculum__title{
+        font-family: var(--header-title);
+    }
+    
+    .extracurriculum__duration{
+        font-family: var(--header-title);
+        font-weight: 500;
+    }
+    .extracurriculum__desc{
+        font-family: var(--content-font);
+        font-weight:500;
+    }
+    
+    .extracurriculum__list{
+        margin: 20px 17px;
+    }
+    .extracurriculum__list li{
+        font-family: var(--content-font);
+        line-height:27px;
+        font-weight: 500;
+    }
+    .EC__img1{
+        width: 400px;
+        height: auto;
+        box-shadow: 0 0 20px var(--clr-dark);
+        border-radius: 5px;
+    }
+    .EC__img2{
+        width: 400px;
+        height: auto;
+        box-shadow: 0 0 20px var(--clr-dark);
+        border-radius: 5px;
+    }
+    .view__video{
+        font-family: var(--header-title);
+        font-size: var(--size-sm);
+        display: block;
+        margin: auto;
+    }    
+    .view__code{
+        font-family: var(--header-title);
+        font-size: var(--size-sm);
+        display: block;
+        margin: auto;
+    }
+    .view__video a{
+        text-decoration: none;
+        color: var(--clr-light);
+    }
+
+    .view__code a{
+        text-decoration: none;
+        color: var(--clr-light);
+    }
+}
+/* lg */
+ @media (min-width: 1024px){
+    .extracurriculum__heading{
+        font-family: var(--header-title);
+        font-size: var(--size-3xl);
+        text-align: center;
+    }
+    .extracurriculum__divider{
+        width: 13%;
+        border-bottom: 3px solid var(--clr-dark);
+        margin: auto;
+    }
+    
+    
+    .extracurriculum__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+    
+    .extracurriculum__title{
+        font-family: var(--header-title);
+    }
+    
+    .extracurriculum__duration{
+        font-family: var(--header-title);
+        font-weight: 500;
+    }
+    .extracurriculum__desc{
+        font-family: var(--content-font);
+        font-weight:500;
+        margin: 20px 0;
+    }
+    
+    .extracurriculum__list{
+        margin: 20px 17px;
+    }
+    .extracurriculum__list li{
+        font-family: var(--content-font);
+        line-height: 25px;
+        font-weight: 500;
+    }
+    .EC__img1{
+        width: auto;
+        height: auto;
+        box-shadow: 0 0 20px var(--clr-dark);
+        border-radius: 5px;
+    }
+    .EC__img2{
+        width: auto;
+        height: auto;
+        box-shadow: 0 0 20px var(--clr-dark);
+        border-radius: 5px;
+    }
+    .view__video{
+        font-family: var(--header-title);
+        font-size: var(--size-sm);
+    }
+    .view__video a{
+        text-decoration: none;
+        color: var(--clr-light);
+    }
+
+    .view__code a{
+        text-decoration: none;
+        color: var(--clr-light);
+    }
+    .view__code{
+        font-family: var(--header-title);
+        font-size: var(--size-sm);
+
+
+    }
+} 
+
+/* xl */
+ @media (min-width: 1280px){
+    .extracurriculum__heading{
+        font-family: var(--header-title);
+        font-size: var(--size-3xl);
+        text-align: center;
+    }
+    
+    .extracurriculum__wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding: 7rem 12rem;
+        gap: 3rem;
+    }
+    
+    .extracurriculum__title{
+        font-family: var(--header-title);
+    }
+    
+    .extracurriculum__duration{
+        font-family: var(--header-title);
+        font-weight: 500;
+    }
+    .extracurriculum__desc{
+        font-family: var(--content-font);
+        font-weight:500;
+        padding-right: 80px;
+        
+    }
+    
+    .extracurriculum__list{
+        margin: 20px 17px;
+    }
+    .extracurriculum__list li{
+        font-family: var(--content-font);
+        line-height: 27px;
+        font-weight: 500;
+    }
+    .EC__img1{
+        width: auto;
+        height: auto;
+        box-shadow: 0 0 20px var(--clr-dark);
+        border-radius: 5px;
+    }
+    .EC__img2{
+        width: 850px;
+        height: auto;
+        box-shadow: 0 0 20px var(--clr-dark);
+        border-radius: 5px;
+    }
+    .view__video{
+        font-family: var(--header-title);
+        font-size: var(--size-sm);
+    }
+    .view__code{
+        font-family: var(--header-title);
+        font-size: var(--size-sm);
+    }
+} 
+
+/* 2xl */
+/* @media (min-width: 1536px){
+    
+} */

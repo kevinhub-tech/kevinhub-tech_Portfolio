@@ -1,0 +1,154 @@
+.menu-bar{
+    font-family: var(--content-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+
+}
+.menu__container{
+   display: none;
+}
+
+
+
+.menu-icon{
+    font-family: var(--header-title);
+    font-size: var(--size-2xl);
+    font-weight: 500;
+    padding-left: 1em;
+}
+
+
+.menu-icon span{
+    font-weight: 700;
+}
+
+
+
+.menu__bar{
+    color: var(--clr-slate600);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    display: block;
+    margin-right: 2rem;
+}
+/* xs */
+@media (min-width: 475px){
+    
+}
+
+/* sm */
+/* @media (min-width: 640px){
+    
+} */
+@media (max-width: 767px){
+    .menu__resume{
+        display: none;
+    }
+}
+/* md */
+@media (min-width: 768px){
+    
+
+.menu-icon{
+    font-family: var(--header-title);
+    font-size: var(--size-2xl);
+    font-weight: 500;
+    padding-left: 1.5em;
+}
+
+.menu-icon span{
+    font-weight: 700;
+}
+
+.menu__container{
+    font-family: var(--header-title);
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+    padding-right: 2rem;
+}
+
+.menu__link{
+    font-size: var(--size-xs);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-slate600);
+    letter-spacing: -0.05em;
+}
+
+
+.menu__link::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: var(--clr-pink);
+    display: block;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+.menu__link:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: var(--clr-pink);
+    display: block;
+    transition: 0.4s ease-in-out;
+}
+
+.menu__line{
+    border: 1px solid var(--clr-slate600);
+    padding-top: 1.5rem;
+}
+
+.menu__resume{
+    font-size: var(--size-xs);
+}
+
+.menu__bar{
+    display: none;
+}
+
+}
+
+/* lg */
+@media (min-width: 1024px){
+    .menu-icon{
+        font-family: var(--header-title);
+        font-size: var(--size-3xl);
+        font-weight: 500;
+        padding-left: 5em;
+    }
+    
+    .menu-icon span{
+        font-weight: 700;
+    }
+    
+    
+    .menu__link{
+        font-size: var(--size-base);
+    }
+    
+    .menu__resume{
+        font-size: var(--size-base);
+        margin-right: 3rem;
+    }
+}
+
+/* xl */
+/* @media (min-width: 1280px){
+   
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px){
+    
+} */
+
+
+

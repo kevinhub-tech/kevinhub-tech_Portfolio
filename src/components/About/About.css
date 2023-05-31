@@ -1,0 +1,226 @@
+.aboutme__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.aboutme__heading{
+    font-family: var(--header-title);
+    font-size: var(--size-3xl);
+}
+
+.aboutme__line{
+    width: 27%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.aboutme__desc{
+    font-family: var(--content-font);
+    font-weight: 500;
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    line-height: 1.3rem;
+}
+.aboutme__img{
+    width:300px;
+    height:400px;
+    border-radius: 10px;
+}
+
+/* xs */
+@media (min-width: 475px){
+    .aboutme__section{
+        gap: 1.5rem;
+    }
+    
+    .aboutme__line{
+        width: 27%;
+    }
+    
+    .aboutme__desc{
+        font-family: var(--content-font);
+        font-weight: 500;
+        max-width: 60ch;
+        font-size: var(--size-base);
+        line-height: 1.3rem;
+    }
+    .aboutme__img{
+        width:300px;
+        height:400px;
+        border-radius: 10px;
+    }
+    
+} 
+
+
+/* sm */
+/* @media (min-width: 640px){
+    
+} */
+
+/* md */
+/* @media (min-width: 768px){
+    
+} */
+
+@media (max-width:1023px){
+    .aboutme__img{
+        width:300px;
+        height:400px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px black;
+    }
+    .aboutme__socials{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 0.75rem;
+        cursor: pointer;  
+        margin-top: 1rem; 
+    }
+    
+    .aboutme__socials__formob{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px){
+    .aboutme__section{
+        display: flex;
+        justify-content:baseline;
+        align-items: center;
+        flex-direction: row;
+        gap: 12rem;
+    }
+    
+    .aboutme__heading{
+        font-family: var(--header-title);
+        font-size: var(--size-2xl);
+    }
+    
+    .aboutme__line{
+        width: 27%;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+    
+    .aboutme__desc{
+        font-family: var(--content-font);
+        font-weight: 500;
+        max-width: 60ch;
+        font-size: var(--size-sm);
+        line-height: 1.3rem;
+    }
+    .aboutme__img{
+        width:400px;
+        height:550px;
+        border-radius: 10px;
+        transition: box-shadow 0.2s;
+    }
+    .aboutme__img:hover{
+        box-shadow: 0 0 20px black;
+    }
+    
+    .aboutme__socials{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 0.75rem;
+        cursor: pointer;
+        transition: transform, box-shadow;
+    }
+    
+    .aboutme__socials:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px var(--clr-blue);
+        border-radius: 5px;
+        transition-duration: 0.3s;
+    }
+} 
+
+
+@media(max-width: 1279px){
+    .aboutme__socials{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 0.75rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        transition: transform, box-shadow;
+    }
+
+    .aboutme__socials:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px var(--clr-blue);
+        border-radius: 5px;
+        transition-duration: 0.3s;
+    }
+}
+/* xl */
+ @media (min-width: 1280px){
+    .aboutme__section{
+        display: flex;
+        justify-content:baseline;
+        align-items: center;
+        flex-direction: row;
+        gap: 12rem;
+    }
+    
+    .aboutme__heading{
+        font-family: var(--header-title);
+        font-size: var(--size-3xl);
+    }
+    
+    .aboutme__line{
+        width: 27%;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+    
+    .aboutme__desc{
+        font-family: var(--content-font);
+        font-weight: 500;
+        max-width: 60ch;
+        font-size: var(--size-base);
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .aboutme__img{
+        width:400px;
+        height:550px;
+        border-radius: 10px;
+        transition: box-shadow 0.2s;
+    }
+    .aboutme__img:hover{
+        box-shadow: 0 0 20px black;
+    }
+    
+    .aboutme__socials{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-right: 0.75rem;
+        cursor: pointer;
+        transition: transform, box-shadow;
+    }
+    
+    .aboutme__socials:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px var(--clr-blue);
+        border-radius: 5px;
+        transition-duration: 0.3s;
+    }
+} 
+
+/* 2xl */
+/* @media (min-width: 1536px){
+    
+} */

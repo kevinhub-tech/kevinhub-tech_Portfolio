@@ -6,7 +6,7 @@ import js from "../../images/js.png";
 import express from "../../images/express.png";
 import node from "../../images/node-js.png";
 import react from "../../images/structure.png";
-import java from "../../images/java.png";
+import php from "../../images/PHP.png";
 import wordpress from "../../images/wordpress.png";
 function Skills() {
   return (
@@ -28,8 +28,8 @@ function Skills() {
             <h3 className="skill__label">JAVASCRIPT</h3>
           </div>
           <div className="skill__wrapper">
-            <img src={java} alt="java" />
-            <h3 className="skill__label">JAVA</h3>
+            <img src={php} alt="java" />
+            <h3 className="skill__label">PHP</h3>
           </div>
         </div>
         <div className="skills__part">

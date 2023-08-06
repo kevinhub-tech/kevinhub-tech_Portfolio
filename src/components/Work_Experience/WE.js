@@ -13,7 +13,7 @@ function WE() {
             <img src={allmyanmaradvisor} alt="All Myanmar Advisor Logo" />
             <div className="text-box">
               <h2 className="company__name">
-                All Myanmar Advisor - Researcher Intern
+                All Myanmar Advisor - Researcher
               </h2>
               <small className="duration">August 2019 & November 2019</small>
               <p className="work__desc">

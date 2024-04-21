@@ -47,7 +47,7 @@ function Navbar() {
         <button>
           <a
             className="menu__resume btn"
-            href="https://docs.google.com/document/d/1hlpPyILQUgBuseIIdyXq3ixxWrNgA4xU/edit?usp=sharing&ouid=102153107342853816794&rtpof=true&sd=true"
+            href="https://www.canva.com/design/DAF_ZUTiPFE/MaxTWGdwr_XCBBNNnmMyOQ/edit?utm_content=DAF_ZUTiPFE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank"
             rel="noreferrer"
           >

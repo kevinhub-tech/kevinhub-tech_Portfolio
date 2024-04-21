@@ -4,10 +4,10 @@ import css from "../../images/css-3.png";
 import html from "../../images/html-5.png";
 import js from "../../images/js.png";
 import express from "../../images/express.png";
-import node from "../../images/node-js.png";
 import react from "../../images/structure.png";
 import php from "../../images/PHP.png";
 import wordpress from "../../images/wordpress.png";
+import laravel from "../../images/laravel.png";
 function Skills() {
   return (
     <div>
@@ -34,8 +34,8 @@ function Skills() {
         </div>
         <div className="skills__part">
           <div className="skill__wrapper">
-            <img src={node} alt="node" />
-            <h3 className="skill__label">NODE</h3>
+            <img src={laravel} alt="laravel" />
+            <h3 className="skill__label">LARAVEL</h3>
           </div>
           <div className="skill__wrapper">
             <img src={react} alt="react" />
@@ -51,6 +51,7 @@ function Skills() {
             <img src={wordpress} alt="wordpress" />
             <h3 className="skill__label">WORDPRESS</h3>
           </div>
+
         </div>
       </section>
     </div>

@@ -30,7 +30,7 @@ function WE() {
             <img src={lithanandeduclaas} alt="EduCLaaS Logo" />
             <div className="text-box">
               <h2 className="company__name">Lithan | EduCLaaS</h2>
-              <small className="duration"> May 2022 - Present</small>
+              <small className="duration"> May 2022 - June 2024</small>
               <p className="work__desc">
                 Worked as a <strong>Technology Associate</strong> to implement
                 landing pages with <strong>WordPress</strong>.<br></br><br></br> Cooperative work
@@ -51,7 +51,6 @@ function WE() {
                 <strong>Conducted research with team members</strong> to identify optimal solutions for new requirements<br></br><br></br>
                 Collaborated with team members to  <strong>conduct code reviews and implement changes for improved maintenance</strong>.
               </p>
-
             </div>
           </div>
         </div>

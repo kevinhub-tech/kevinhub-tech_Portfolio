@@ -16,7 +16,7 @@ function About() {
             <h2 className="aboutme__heading">About me</h2>
             <hr className="aboutme__line"></hr>
             <p className="aboutme__desc">
-              I'm Win Khant Paing but you can call me Kevin. I'm a 20 years-old
+              I'm Win Khant Paing but you can call me Kevin. I'm a 21 years-old
               student, living in Yangon, passionately following my goals to
               pursue my explicit interest in technology.
               <br />

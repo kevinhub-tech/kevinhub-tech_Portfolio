@@ -4,10 +4,22 @@ import github from "../../images/github-sign.png";
 import linkedin from "../../images/linkedin-logo.png";
 import "./About.css";
 const dynamicAge = () => {
-  let myBirthYear = 2002;
+  let myDob = '2002-10-30';
 
-  let dynamicAge = new Date().getFullYear() - myBirthYear;
-  return dynamicAge;
+  let currentDate = new Date().getDate();
+  let currentYear = new Date().getFullYear();
+  let currentMonth = new Date().getMonth();
+
+  let myBirthDate = new Date(myDob).getDate();
+  let myBirthMonth = new Date(myDob).getMonth();
+  let myBirthYear = new Date(myDob).getFullYear();
+
+  let dynamicYear = currentYear - myBirthYear;
+  let dynamicMonth = currentMonth - myBirthMonth;
+  if (dynamicMonth < 0 || (dynamicMonth === 0 && currentDate < myBirthDate)) {
+    dynamicYear--;
+  }
+  return dynamicYear;
 }
 
 function About() {

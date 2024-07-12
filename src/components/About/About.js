@@ -3,6 +3,12 @@ import aboutme from "../../images/aboutme.JPG";
 import github from "../../images/github-sign.png";
 import linkedin from "../../images/linkedin-logo.png";
 import "./About.css";
+const dynamicAge = () => {
+  let myBirthYear = 2002;
+
+  let dynamicAge = new Date().getFullYear() - myBirthYear;
+  return dynamicAge;
+}
 
 function About() {
   return (
@@ -16,7 +22,7 @@ function About() {
             <h2 className="aboutme__heading">About me</h2>
             <hr className="aboutme__line"></hr>
             <p className="aboutme__desc">
-              I'm Win Khant Paing but you can call me Kevin. I'm a 21 years-old
+              I'm Win Khant Paing but you can call me Kevin. I'm a {dynamicAge()} years-old
               student, living in Yangon, passionately following my goals to
               pursue my explicit interest in technology.
               <br />

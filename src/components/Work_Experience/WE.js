@@ -29,11 +29,11 @@ function WE() {
           <div className="workexperience__container workexperience__right__container">
             <img src={lithanandeduclaas} alt="EduCLaaS Logo" />
             <div className="text-box">
-              <h2 className="company__name">Lithan | EduCLaaS</h2>
-              <small className="duration"> May 2022 - June 2024</small>
+              <h2 className="company__name">Lithan | EduCLaaS (Singapore)</h2>
+              <small className="duration"> May 2022 - June 2023</small>
               <p className="work__desc">
                 Worked as a <strong>Technology Associate</strong> to implement
-                landing pages with <strong>WordPress</strong>.<br></br><br></br> Cooperative work
+                landing pages that averages around <strong> 5,000 monthly viewer </strong> with <strong>WordPress</strong>.<br></br><br></br> Cooperative work
                 with content team and
                 <strong> implemented chatbot plugin</strong> for their marketing
                 campaign. <br></br><br></br>Learnt vast knowledge on
@@ -45,10 +45,12 @@ function WE() {
           </div>
           <div className="workexperience__container workexperience__right__container">
             <div className="text-box">
+              <small className="duration">July 2023 - June 2024</small>
               <p className="work__desc">
                 Migrated to work as a developer and worked with these technology: <strong> HTML, CSS, JQuery, JavaScript (ES6), AJAX, PHP, PDO, Laravel. </strong><br></br><br></br>
-                Utilized <strong>third-party API tools</strong> to meet project requirements effectively and adaptably.<br></br><br></br>
-                <strong>Conducted research with team members</strong> to identify optimal solutions for new requirements<br></br><br></br>
+                Built a <strong>PHP-based Product Generator App</strong> using <strong>jQuery, AJAX and MVC pattern</strong>. <br></br><br></br>
+                Developed an <strong>Automated Customer Proposal Generator</strong> with <strong>Laravel and ChatGPT </strong> for data analysis, serving <strong>6,000 customers/month </strong>.<br></br><br></br>
+                Integrated above mentioned apps with <strong>HubSpot CRM </strong>to streamline the sales process.<br></br><br></br>
                 Collaborated with team members to  <strong>conduct code reviews and implement changes for improved maintenance</strong>.
               </p>
             </div>

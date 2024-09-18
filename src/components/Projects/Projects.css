@@ -34,7 +34,8 @@
 
 .project__img {
     width: 450px;
-    height: 250px;
+    /* height: 250px; */
+    object-fit: cover;
     box-shadow: 0 0 5px black;
 }
 

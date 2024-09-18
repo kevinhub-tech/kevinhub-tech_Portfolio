@@ -1,6 +1,7 @@
 import React from "react";
 import project1 from "../../images/project1.png";
 import project2 from "../../images/project2.png";
+import project3 from "../../images/project3.png";
 import "./Projects.css";
 function Projects() {
   return (
@@ -51,6 +52,31 @@ function Projects() {
           <a
             className="project__link"
             href="https://github.com/kevinhub-tech/API"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Code
+          </a>
+        </div>
+        <div className="project__wrapper">
+          <img className="project__img" src={project3} alt="KBS - Kevin Book Store Imagee"></img>
+          <h3 className="project__title">
+            KBS - Kevin Book Store
+          </h3>
+          <div className="project__skill">
+            <p className="project__element">Laravel</p>
+            <p className="project__element">PHP</p>
+            <p className="project__element">JavaScript(ES6)</p>
+            <p className="project__element">Jquery</p>
+            <p className="project__element">Socialite</p>
+          </div>
+          <p className="project__desc">
+            An e-commerce project (enterprise-level) with different permission for three users (Admin, Vendors, Users) with Oauth Sigin, Authentication and Authorization Process.
+          </p>
+          <br />
+          <a
+            className="project__link"
+            href="https://github.com/kevinhub-tech/kbs"
             target="_blank"
             rel="noreferrer"
           >

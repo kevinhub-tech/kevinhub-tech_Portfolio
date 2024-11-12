@@ -41,13 +41,13 @@ function Footer() {
           <h2>Contact Info</h2>
           <ul>
             <li>
-              <p>+959799120315</p>
+              <p>+66644585592</p>
             </li>
             <li>
               <p>winkhantpaing32@gmail.com</p>{" "}
             </li>
             <li>
-              <p>Yangon, Myanmar</p>
+              <p>Bangkok, Thailand</p>
             </li>
           </ul>
         </div>

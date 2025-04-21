@@ -2,6 +2,7 @@ import React from "react";
 import "./WE.css";
 import allmyanmaradvisor from "../../images/firstcompany.jpg";
 import lithanandeduclaas from "../../images/secondcompany.jpg";
+import gosg from "../../images/thirdcompany.jpg";
 function WE() {
   return (
     <div>
@@ -53,6 +54,33 @@ function WE() {
                 Integrated above mentioned apps with <strong>HubSpot CRM </strong>to streamline the sales process.<br></br><br></br>
                 Collaborated with team members to  <strong>conduct code reviews and implement changes for improved maintenance</strong>.
               </p>
+            </div>
+          </div>
+          <div className="workexperience__container workexperience__left__container">
+            <img src={gosg} alt="All Myanmar Advisor Logo" />
+            <div className="text-box">
+              <h2 className="company__name">
+                G.O SG Consulting
+              </h2>
+              <small className="duration">December 2024 - Present</small>
+              <p className="work__desc">
+                Created and managed responsive WordPress pages with <strong>Gutenberg + Elementor Pro</strong> , tailored to diverse client needs across industries.
+                <br></br><br></br>
+                Collaborated closely with designers to ensure responsive, visually appealing, and <strong>user-friendly interfaces across all devices </strong>.
+                <br></br><br></br>
+                <strong>Maintained and configured servers hosting multiple WordPress sites </strong>, ensuring optimal performance and uptime.
+                <br></br><br></br>
+                Implemented <strong>SEO best practices and integrated Google Tag Manager </strong> to enhance site analytics and search visibility.
+                <br></br><br></br>
+                Set up and <strong>configured mail systems</strong> for WordPress sites, including SMTP and contact form integrations.
+                <br></br><br></br>
+                Developed custom <strong>WordPress templates</strong> to streamline website production and improve development efficiency.
+                <br></br><br></br>
+                Built bespoke features and functionalities based on specific client requirements <strong>using PHP, JavaScript, and WordPress hooks/APIs </strong>.
+                <br></br><br></br>
+                Managed team tasks and workflows to enhance <strong> collaboration, meet deadlines, and deliver high-performance results</strong>.
+              </p>
+              <span className="left__workexperience__container__arrow"></span>
             </div>
           </div>
         </div>

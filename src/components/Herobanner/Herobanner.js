@@ -15,7 +15,7 @@ function HeroBanner() {
           <h2 className="welcome__title">Hello I'm Kevin!👋</h2>
           <h1 className="welcome__subtitle">
             FULL STACK <br />
-            WEB DEVELOPMENT ENTHUSIAST
+            WEB DEVELOPER
           </h1>
           <p className="welcome__intro">
             A<strong> web development enthusiast</strong> that wants to

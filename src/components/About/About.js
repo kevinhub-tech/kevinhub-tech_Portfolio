@@ -1,26 +1,10 @@
 import React from "react";
-import aboutme from "../../images/aboutme.JPG";
+import aboutme from "../../images/aboutme.jpg";
 import github from "../../images/github-sign.png";
 import linkedin from "../../images/linkedin-logo.png";
+import dynamicAge from "../../helper/dynamicAge";
 import "./About.css";
-const dynamicAge = () => {
-  let myDob = '2002-10-30';
 
-  let currentDate = new Date().getDate();
-  let currentYear = new Date().getFullYear();
-  let currentMonth = new Date().getMonth();
-
-  let myBirthDate = new Date(myDob).getDate();
-  let myBirthMonth = new Date(myDob).getMonth();
-  let myBirthYear = new Date(myDob).getFullYear();
-
-  let dynamicYear = currentYear - myBirthYear;
-  let dynamicMonth = currentMonth - myBirthMonth;
-  if (dynamicMonth < 0 || (dynamicMonth === 0 && currentDate < myBirthDate)) {
-    dynamicYear--;
-  }
-  return dynamicYear;
-}
 
 function About() {
   return (

@@ -1,57 +1,56 @@
 import React from "react";
 import "./Skills.css";
-import css from "../../images/css-3.png";
-import html from "../../images/html-5.png";
-import js from "../../images/js.png";
-import express from "../../images/express.png";
-import react from "../../images/structure.png";
-import php from "../../images/PHP.png";
-import wordpress from "../../images/wordpress.png";
-import laravel from "../../images/laravel.png";
+import data from "../../schemas/data";
+
+const skills = data("skills") ?? [];
+
+/** Row groups: 6→2, 8→2, 9→3, 10→2, 12→3; otherwise ~4 items per row. */
+function getSkillsRowGroupCount(total) {
+  if (total <= 0) return 1;
+  if (total === 10) return 2;
+  return Math.ceil(total / 4);
+}
+
+function chunkSkillsIntoRows(items, rowCount) {
+  const n = items.length;
+  if (rowCount <= 0 || n === 0) return [items];
+  const perRow = Math.ceil(n / rowCount);
+  const rows = [];
+  for (let i = 0; i < n; i += perRow) {
+    rows.push(items.slice(i, i + perRow));
+  }
+  return rows;
+}
+
 function Skills() {
+  const rowCount = getSkillsRowGroupCount(skills.length);
+  const rows = chunkSkillsIntoRows(skills, rowCount);
+
   return (
     <div>
       <section className="section container">
         <h2 className="skills__heading">Skills</h2>
-        <hr className="skills__divider"></hr>
+        <hr className="skills__divider" />
         <div className="skills__part">
-          <div className="skill__wrapper">
-            <img src={html} alt="html" />
-            <h3 className="skill__label">HTML</h3>
-          </div>
-          <div className="skill__wrapper">
-            <img src={css} alt="css" />
-            <h3 className="skill__label">CSS</h3>
-          </div>
-          <div className="skill__wrapper">
-            <img src={js} alt="js" />
-            <h3 className="skill__label">JAVASCRIPT</h3>
-          </div>
-          <div className="skill__wrapper">
-            <img src={php} alt="java" />
-            <h3 className="skill__label">PHP</h3>
-          </div>
-        </div>
-        <div className="skills__part">
-          <div className="skill__wrapper">
-            <img src={laravel} alt="laravel" />
-            <h3 className="skill__label">LARAVEL</h3>
-          </div>
-          <div className="skill__wrapper">
-            <img src={react} alt="react" />
-            <h3 className="skill__label">REACT</h3>
-          </div>
-
-          <div className="skill__wrapper">
-            <img src={express} alt="express" />
-            <h3 className="skill__label">EXPRESS</h3>
-          </div>
-
-          <div className="skill__wrapper">
-            <img src={wordpress} alt="wordpress" />
-            <h3 className="skill__label">WORDPRESS</h3>
-          </div>
-
+          {rows.map((rowSkills, rowIndex) => {
+            const indexOffset = rows
+              .slice(0, rowIndex)
+              .reduce((sum, row) => sum + row.length, 0);
+            return (
+              <div className="skills__row" key={`skills-row-${rowIndex}`}>
+                {rowSkills.map((skill, i) => (
+                  <div
+                    className="skill__wrapper"
+                    key={skill.label}
+                    data-index={indexOffset + i}
+                  >
+                    <img src={skill.image} alt={skill.label} />
+                    <h3 className="skill__label">{skill.label}</h3>
+                  </div>
+                ))}
+              </div>
+            );
+          })}
         </div>
       </section>
     </div>

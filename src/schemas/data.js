@@ -10,7 +10,7 @@ import node from "../images/node-js.png";
 import graphql from "../images/graphql.png";
 import supabase from "../images/supabase.png";
 import shopify from "../images/shopify.png";
-import postgres from "../images/postgresql.png";
+
 function data(schema) {
     if(schema === "skills") {
         return skills;

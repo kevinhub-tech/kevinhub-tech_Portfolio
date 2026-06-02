@@ -57,30 +57,46 @@ function WE() {
             </div>
           </div>
           <div className="workexperience__container workexperience__left__container">
-            <img src={gosg} alt="All Myanmar Advisor Logo" />
+            <img src={gosg} alt="G.O SG Consulting Logo" />
             <div className="text-box">
               <h2 className="company__name">
                 G.O SG Consulting
               </h2>
               <small className="duration">December 2024 - Present</small>
               <p className="work__desc">
-                Created and managed responsive WordPress pages with <strong>Gutenberg + Elementor Pro</strong> , tailored to diverse client needs across industries.
+                <strong>Web Developer · Dec 2024 – Oct 2025</strong>
                 <br></br><br></br>
-                Collaborated closely with designers to ensure responsive, visually appealing, and <strong>user-friendly interfaces across all devices </strong>.
+                Built mobile-first, responsive WordPress sites using <strong>Gutenberg</strong> and <strong>Elementor Pro</strong>, delivering pixel-perfect UI/UX across multiple client projects.
                 <br></br><br></br>
-                <strong>Maintained and configured servers hosting multiple WordPress sites </strong>, ensuring optimal performance and uptime.
+                Developed a reusable <strong>component and template library</strong> that significantly sped up production time across all new projects.
                 <br></br><br></br>
-                Implemented <strong>SEO best practices and integrated Google Tag Manager </strong> to enhance site analytics and search visibility.
-                <br></br><br></br>
-                Set up and <strong>configured mail systems</strong> for WordPress sites, including SMTP and contact form integrations.
-                <br></br><br></br>
-                Developed custom <strong>WordPress templates</strong> to streamline website production and improve development efficiency.
-                <br></br><br></br>
-                Built bespoke features and functionalities based on specific client requirements <strong>using PHP, JavaScript, and WordPress hooks/APIs </strong>.
-                <br></br><br></br>
-                Managed team tasks and workflows to enhance <strong> collaboration, meet deadlines, and deliver high-performance results</strong>.
+                Managed web servers, mail systems, and SEO infrastructure using <strong>Google Tag Manager</strong>, maintaining high uptime and search visibility for clients.
               </p>
               <span className="left__workexperience__container__arrow"></span>
+            </div>
+          </div>
+          <div className="workexperience__container workexperience__left__container">
+            <div className="text-box">
+              <small className="duration">December 2024 - Present</small>
+              <p className="work__desc">
+                <strong>Lead Web Developer · Nov 2025 – Apr 2026</strong>
+                <br></br><br></br>
+                Promoted to Lead within 11 months, taking full ownership of project delivery, team management, and client communication.
+                <br></br><br></br>
+                Built an in-house <strong>CMS (React + Node.js/Express)</strong> that centralized content updates across all client websites, reducing turnaround time.
+                <br></br><br></br>
+                Engineered a fully automated <strong>SEO + lead nurturing pipeline</strong> via <strong>Make.com</strong> — AI-generated articles and images route through client approval and publish live.
+                <br></br><br></br>
+                Set up a multi-step <strong>email and SMS drip campaign</strong> for lead engagement as part of the automation workflow.
+                <br></br><br></br>
+                Developed a <strong>Medusa v2 multi-storefront</strong> system that centralized product management and eliminated duplicated work across storefronts.
+                <br></br><br></br>
+                Built custom <strong>Shopify themes</strong> using <strong>metafields</strong> to unlock advanced e-commerce capabilities beyond platform defaults.
+                <br></br><br></br>
+                Scaled team capacity by recruiting and managing freelance developers as project volume grew.
+                <br></br><br></br>
+                Served as the primary client-facing engineer — scoping requirements, managing expectations, and owning delivery from planning through deployment and handoff.
+              </p>
             </div>
           </div>
         </div>

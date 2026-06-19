@@ -60,7 +60,7 @@ function Contactme() {
               <div className="icon">
                 <img src={phone} alt="phone"></img>
               </div>
-              <p>+959799120315</p>
+              <p>+66644585592</p>
             </div>
             <div className="contactme__info">
               <div className="icon">
@@ -72,7 +72,7 @@ function Contactme() {
               <div className="icon">
                 <img src={location} alt="location"></img>
               </div>
-              <p>Yangon, Myanmar</p>
+              <p>Bangkok, Thailand</p>
             </div>
           </div>
           <div className="contactme__right">

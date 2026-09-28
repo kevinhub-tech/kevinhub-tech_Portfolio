@@ -103,7 +103,7 @@ function Projects() {
 
           </div>
           <p className="project__desc">
-            A personalized app that lets you calculate your own expense on weekly basis with savings. (Still on-going)
+            A personalized app that lets you calculate your own expense on weekly basis with savings.
           </p>
           <br />
           <div className="link__container">

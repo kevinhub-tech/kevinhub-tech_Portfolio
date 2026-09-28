@@ -7,6 +7,7 @@ import php from "../images/PHP.png";
 import wordpress from "../images/wordpress.png";
 import laravel from "../images/laravel.png";
 import node from "../images/node-js.png";
+import postgresql from "../images/postgresql.png";
 import graphql from "../images/graphql.png";
 import supabase from "../images/supabase.png";
 import shopify from "../images/shopify.png";
@@ -55,8 +56,8 @@ const skills = [
         label: "NODE",
     },
     {
-        image: graphql,
-        label: "GRAPHQL",
+        image: postgresql,
+        label: "POSTGRESQL",
     },
     {
         image: supabase,

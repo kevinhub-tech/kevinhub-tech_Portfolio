@@ -62,40 +62,42 @@ function WE() {
               <h2 className="company__name">
                 G.O SG Consulting
               </h2>
-              <small className="duration">December 2024 - Present</small>
+              <small className="duration">December 2024 - April 2026</small>
               <p className="work__desc">
-                <strong>Web Developer · Dec 2024 – Oct 2025</strong>
+                <strong>Web Developer · Dec 2024 - Oct 2025</strong>
                 <br></br><br></br>
-                Built mobile-first, responsive WordPress sites using <strong>Gutenberg</strong> and <strong>Elementor Pro</strong>, delivering pixel-perfect UI/UX across multiple client projects.
+                Built 10+ mobile-first, responsive <strong>WordPress</strong> websites for client projects using <strong>Gutenberg</strong> and <strong>Elementor Pro</strong>, aligning pixel-perfect UI/UX with designer specifications.
                 <br></br><br></br>
-                Developed a reusable <strong>component and template library</strong> that significantly sped up production time across all new projects.
+                Developed a reusable <strong>component and template library</strong>, cutting section-build time (e.g., homepage sections) from about 2 hours to minutes across all new client projects.
                 <br></br><br></br>
-                Managed web servers, mail systems, and SEO infrastructure using <strong>Google Tag Manager</strong>, maintaining high uptime and search visibility for clients.
+                Managed web servers, mail systems, and SEO infrastructure with <strong>Google Tag Manager</strong>, ensuring high uptime and search visibility for clients.
               </p>
               <span className="left__workexperience__container__arrow"></span>
             </div>
           </div>
           <div className="workexperience__container workexperience__left__container">
             <div className="text-box">
-              <small className="duration">December 2024 - Present</small>
+              <small className="duration">November 2025 - April 2026</small>
               <p className="work__desc">
-                <strong>Lead Web Developer · Nov 2025 – Apr 2026</strong>
+                <strong>Lead Web Developer · Nov 2025 - Apr 2026</strong>
                 <br></br><br></br>
-                Promoted to Lead within 11 months, taking full ownership of project delivery, team management, and client communication.
+                Promoted to Lead within 11 months. Managed the full project delivery lifecycle across an average of 3 concurrent client engagements per week, from requirements through deployment and handoff.
                 <br></br><br></br>
-                Built an in-house <strong>CMS (React + Node.js/Express)</strong> that centralized content updates across all client websites, reducing turnaround time.
+                Delivered 10 client websites spanning e-commerce, Shopify, WordPress, and SEO-focused landing pages, owning delivery from planning through QA, deployment, and client handoff.
                 <br></br><br></br>
-                Engineered a fully automated <strong>SEO + lead nurturing pipeline</strong> via <strong>Make.com</strong> — AI-generated articles and images route through client approval and publish live.
+                Directed development of two client-facing <strong>CMS solutions</strong>: a <strong>headless WordPress + React</strong> system for 5 clients and a custom <strong>React + Node.js/Express</strong> CMS for 6-8 clients, enabling non-technical teams to manage content independently, using AI-assisted development tools (Cursor, Claude) to accelerate delivery.
                 <br></br><br></br>
-                Set up a multi-step <strong>email and SMS drip campaign</strong> for lead engagement as part of the automation workflow.
+                Led headless e-commerce integrations (<strong>WordPress/WooCommerce API + React</strong>) for 3 clients, including one catalog of 500+ products.
                 <br></br><br></br>
-                Developed a <strong>Medusa v2 multi-storefront</strong> system that centralized product management and eliminated duplicated work across storefronts.
+                Used <strong>Advanced Custom Fields (ACF)</strong> to structure custom data models across 5 client sites, enabling non-technical content updates without developer involvement.
                 <br></br><br></br>
-                Built custom <strong>Shopify themes</strong> using <strong>metafields</strong> to unlock advanced e-commerce capabilities beyond platform defaults.
+                Built custom <strong>Shopify themes</strong> using <strong>metafields</strong>, unlocking advanced e-commerce capabilities beyond platform defaults.
                 <br></br><br></br>
-                Scaled team capacity by recruiting and managing freelance developers as project volume grew.
+                Led implementation of a <strong>Medusa v2 multi-storefront</strong> system consolidating product management for 2 client storefronts, eliminating duplicated manual product entry.
                 <br></br><br></br>
-                Served as the primary client-facing engineer — scoping requirements, managing expectations, and owning delivery from planning through deployment and handoff.
+                Automated a 12-article/month <strong>SEO content pipeline</strong> in <strong>Make.com</strong> (AI-generated research, writing, and imagery, routed through client approval to publish), cutting content production time from days to hours, and set up a multi-step email and SMS drip campaign for lead engagement.
+                <br></br><br></br>
+                Scaled delivery capacity by building and managing a team of up to 3 freelance developers alongside 1 in-house developer to handle growing project volume.
               </p>
             </div>
           </div>

@@ -9,9 +9,7 @@ function Footer() {
         <div className="footer__info">
           <h2>Kevinhub-tech</h2>
           <p>
-            I am Kevin! A web development enthusiast that wants to explore more
-            of this world and become a full stack developer. Passionate about
-            Learning.
+            I am Kevin! Full-stack developer with 3.5+ years of experience building client websites and web applications across WordPress, Shopify, and React/Node.js.
           </p>
         </div>
         <div className="footer__nav">

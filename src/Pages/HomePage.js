@@ -9,6 +9,7 @@ import WE from "../components/Work_Experience/WE";
 import EC from "../components/Extra_curriculum/EC";
 import Contactme from "../components/Contact_me/Contactme";
 import Footer from "../components/Footer/Footer";
+
 function HomePage() {
   return (
     <>

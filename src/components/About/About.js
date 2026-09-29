@@ -2,7 +2,7 @@ import React from "react";
 import aboutme from "../../images/aboutme.jpg";
 import github from "../../images/github-sign.png";
 import linkedin from "../../images/linkedin-logo.png";
-import dynamicAge from "../../helper/dynamicAge";
+// import dynamicAge from "../../helper/dynamicAge";
 import "./About.css";
 
 
@@ -18,21 +18,13 @@ function About() {
             <h2 className="aboutme__heading">About me</h2>
             <hr className="aboutme__line"></hr>
             <p className="aboutme__desc">
-              I'm Win Khant Paing but you can call me Kevin. I'm a {dynamicAge()} years-old
-              student, living in Yangon, passionately following my goals to
-              pursue my explicit interest in technology.
+              Full-stack developer with 3.5+ years of experience, evolving from WordPress builds to full-stack engineering, and eventually leading end-to-end project delivery as a Lead Web Developer, managing teams across multiple client engagements in React, Node.js, PHP, and Shopify.
               <br />
               <br />
-              It has not been long since I am deeply intrigued about technology
-              but what has been long for me is that I am curious about the
-              fundamental of any instance. And the technology that we are using
-              nowadays in applications and software drives me to learn about
-              them impulsively.
+              What drives me isn't just shipping features, it's understanding how things actually work underneath them. I care about the fundamentals: how a database is structured, why a system is architected a certain way, what happens when something breaks and why. That curiosity is what's pushing me to keep sharpening my technical depth, even after years of professional work.
               <br />
-              <br />I am a self-driven and curious person to learn new things
-              and pro-active about anything in my life. I enjoy listening to
-              other people's idea and collaborate with it to create something
-              beautiful with team work.
+              <br />
+              I'm self-driven, I like collaborating with people who bring different perspectives, and I genuinely enjoy the process of building something well, not just building it fast.
             </p>
             <div className="aboutme__socials__formob">
               <a

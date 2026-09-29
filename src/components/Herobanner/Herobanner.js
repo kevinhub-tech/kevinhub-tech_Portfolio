@@ -18,10 +18,7 @@ function HeroBanner() {
             WEB DEVELOPER
           </h1>
           <p className="welcome__intro">
-            A<strong> web development enthusiast</strong> that wants to
-            <strong> explore more</strong> of this world and to become
-            <strong> a full stack developer.</strong> Passionate about{" "}
-            <strong> Learning</strong>.
+            Full-stack developer with <strong> 3.5+ years of experience </strong> building client websites and web applications across <strong> WordPress, Shopify, and React/Node.js. </strong> 
           </p>
           <a className="welcome__btn btn" href="#contact">
             Contact me!
